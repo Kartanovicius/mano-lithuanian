@@ -6,7 +6,7 @@ export default function News() {
 
   useEffect(() => {
     setNews(
-      <button className={"w-full bg-white rounded-md py-3 px-7 hover:shadow-md"}>
+      <button className={"w-full bg-white rounded-md py-3 px-4 sm:px-7 hover:shadow-md"}>
         <p className={'text-lg text-left'}>What language should I learn?</p>
         <div
           className={
@@ -23,9 +23,9 @@ export default function News() {
   }, [0])
   
   return (
-    <div className={"bg-grey-bg py-10 px-14"}>
-      <h1 className={"text-6xl font-light"}>The Mano Lithuanian blog</h1>
-      <p className={"text-lg font-light py-5"}>
+    <div className={"bg-grey-bg py-10 px-5 sm:px-14"}>
+      <h1 className={"text-5xl sm:text-6xl font-light"}>The Mano Lithuanian blog</h1>
+      <p className={"text-lg font-light py-5 sm:w-1/2"}>
         Articles exploring the world of languages, learning guides and tips,
         news, stories and more, brought to you by the Mano Lithuanian crew
       </p>

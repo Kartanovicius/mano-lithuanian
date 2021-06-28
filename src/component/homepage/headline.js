@@ -11,7 +11,7 @@ export default function Headline() {
         <div></div>
         <div
           className={
-            "flex justify-center items-center text-5xl text-right mr-14"
+            "flex justify-center items-center text-4xl md:text-5xl text-right mr-14 pb-24"
           }
         >
           <p>
@@ -19,7 +19,7 @@ export default function Headline() {
           </p>
         </div>
       </div>
-      <p className={"flex text-4xl md:text-5xl lg:text-6xl text-center justify-center items-center h-1/6 font-light"}>
+      <p className={"flex text-5xl lg:text-6xl justify-center text-center sm:items-center h-1/6 font-light px-1"}>
         We offer different ways of learning
       </p>
     </div>

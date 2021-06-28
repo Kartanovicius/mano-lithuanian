@@ -3,13 +3,13 @@ import React from "react";
 export default function FollowUs() {
   return (
     <div className={"grid gap-5 bg-yellow text-center py-10"}>
-      <h2 className={"text-6xl font-light"}>Follow us</h2>
+      <h2 className={"text-5xl sm:text-6xl font-light"}>Follow us</h2>
       <h3 className={"text-xl"}>
         You can find lots of cool memes and information by following us on our
         social media
       </h3>
       <div className={"flex grid-col-3 justify-center gap-6"}>
-        <button className={""}>
+        <button>
           <svg
             class="transition duration-500 ease-in-out fill-current text-black hover:text-blue-500"
             width="55"
