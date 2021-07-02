@@ -1,6 +1,14 @@
 import React from "react";
 
 export default function FollowUs() {
+  //When creating links always use https:// in beginning
+  const facebook = "https://www.facebook.com";
+
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
+
   return (
     <div className={"grid gap-5 bg-yellow text-center py-10"}>
       <h2 className={"text-5xl sm:text-6xl font-light"}>Follow us</h2>
@@ -9,7 +17,7 @@ export default function FollowUs() {
         social media
       </h3>
       <div className={"flex grid-col-3 justify-center gap-6"}>
-        <button>
+        <button onClick={() => openInNewTab(facebook)}>
           <svg
             class="transition duration-500 ease-in-out fill-current text-black hover:text-blue-500"
             width="55"
@@ -21,7 +29,7 @@ export default function FollowUs() {
             <path d="M55 27.5C55 12.3122 42.6878 0 27.5 0C12.3122 0 0 12.3122 0 27.5C0 41.2258 10.0563 52.6029 23.2031 54.6659V35.4492H16.2207V27.5H23.2031V21.4414C23.2031 14.5492 27.3088 10.7422 33.5903 10.7422C36.5981 10.7422 39.7461 11.2793 39.7461 11.2793V18.0469H36.2785C32.8625 18.0469 31.7969 20.1668 31.7969 22.3438V27.5H39.4238L38.2046 35.4492H31.7969V54.6659C44.9437 52.6029 55 41.2258 55 27.5Z" />
           </svg>
         </button>
-        <button>
+        <button onClick={() => openInNewTab(facebook)}>
           <svg
             class="transition duration-500 ease-in-out fill-current text-black hover:text-yellow-500"
             width="55"
@@ -35,7 +43,7 @@ export default function FollowUs() {
             <path d="M45.4824 12.8153C45.4824 14.6415 44 16.1132 42.1846 16.1132C40.3584 16.1132 38.8867 14.6307 38.8867 12.8153C38.8867 10.9891 40.3691 9.51746 42.1846 9.51746C44 9.51746 45.4824 10.9999 45.4824 12.8153Z" />
           </svg>
         </button>
-        <button>
+        <button onClick={() => openInNewTab(facebook)}  >
           <svg
             class="transition duration-500 ease-in-out fill-current text-black hover:text-blue-400"
             width="55"

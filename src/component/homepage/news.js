@@ -20,7 +20,7 @@ export default function News() {
         </div>
       </button>
     );
-  }, [0])
+  }, [])
   
   return (
     <div className={"bg-grey-bg py-10 px-5 sm:px-14"}>
