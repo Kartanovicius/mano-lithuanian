@@ -14,7 +14,7 @@ export default function WaysOfStudy() {
         </div>
       </button>
     );
-  }, [0]);
+  }, []);
 
   return <div className={'flex px-4 sm:px-14 pb-10 gap-8 overflow-y-auto'}>
       {card}      
