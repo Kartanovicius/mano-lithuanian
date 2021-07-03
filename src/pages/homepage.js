@@ -3,7 +3,7 @@ import Headline from "../component/homepage/headline";
 import Footer from "../component/footer";
 import Logo from "../component/logo";
 import FollowUs from "../component/follow-us";
-import Blog from "../component/homepage/article";
+import Article from "../component/homepage/article";
 import WaysOfStudy from "../component/homepage/ways-of-study";
 
 export default function HomePage() {
@@ -12,7 +12,7 @@ export default function HomePage() {
       <Logo />
       <Headline />
       <WaysOfStudy />
-      <Blog />
+      <Article />
       <FollowUs />
       <Footer />
     </div>

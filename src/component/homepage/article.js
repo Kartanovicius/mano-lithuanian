@@ -29,7 +29,6 @@ export default function Article() {
       </NavLink>
     );
   }, []);
-
   return (
     <div className={"bg-grey-bg py-10 px-5 sm:px-14"}>
       <h1 className={"text-5xl sm:text-6xl font-light"}>
