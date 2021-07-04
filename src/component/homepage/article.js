@@ -31,7 +31,7 @@ export default function Article() {
   }, []);
   return (
     <div className={"bg-grey-bg py-10 px-5 sm:px-14"}>
-      <h1 className={"text-5xl sm:text-6xl font-light"}>
+      <h1 className={"text-4xl sm:text-5xl md:text-6xl font-light"}>
         The Mano Lithuanian blog
       </h1>
       <p className={"text-lg font-light py-5 sm:w-1/2"}>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Content() {
   return (
-    <div className={" space leading-9 text-lg font-normal mt-10 lg:mt-24 space-y-7 px-4 sm:px-12 lg:px-52 "}>
+    <div className={" space leading-9 text-lg font-normal mt-10 lg:mt-24 space-y-7 px-4 lg:px-52 "}>
       <h2 className={'text-green text-3xl font-bold'}>Japanese anime is inspiring people to learn Japanese right now.</h2>
       <p>
         TV and film fans can access an endless supply of anime online – catered

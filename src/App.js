@@ -7,6 +7,7 @@ function App() {
   const Article = lazy(() => import("./pages/article"));
   const NotFound = lazy(() => import("./pages/not-found"));
   const HomePage = lazy(() => import("./pages/homepage"));
+  const Skill = lazy(() => import("./pages/skill"));
 
   return (
     <div className="">
@@ -15,6 +16,7 @@ function App() {
             <Switch>
               <Route exact path="/" component={HomePage} />
               <Route path="/article" component={Article} />
+              <Route path="/skill" component={Skill} />
               <Route component={NotFound} />
             </Switch>
           </Suspense>

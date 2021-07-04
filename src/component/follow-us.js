@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function FollowUs() {
+  const iconSize = 45;
   //When creating links always use https:// in beginning
   const facebook = "https://www.facebook.com";
 
@@ -11,7 +12,7 @@ export default function FollowUs() {
 
   return (
     <div className={"grid gap-5 bg-yellow text-center py-10"}>
-      <h2 className={"text-5xl sm:text-6xl font-light"}>Follow us</h2>
+      <h2 className={"text-4xl sm:text-5xl md:text-6xl sm:font-light"}>Follow us</h2>
       <h3 className={"text-xl"}>
         You can find lots of cool memes and information by following us on our
         social media
@@ -20,8 +21,8 @@ export default function FollowUs() {
         <button onClick={() => openInNewTab(facebook)}>
           <svg
             class="transition duration-500 ease-in-out fill-current text-black hover:text-blue-500"
-            width="55"
-            height="55"
+            width={iconSize}
+            height={iconSize}
             viewBox="0 0 55 55"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -32,8 +33,8 @@ export default function FollowUs() {
         <button onClick={() => openInNewTab(facebook)}>
           <svg
             class="transition duration-500 ease-in-out fill-current text-black hover:text-yellow-500"
-            width="55"
-            height="55"
+            width={iconSize}
+            height={iconSize}
             viewBox="0 0 55 55"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -46,8 +47,8 @@ export default function FollowUs() {
         <button onClick={() => openInNewTab(facebook)}  >
           <svg
             class="transition duration-500 ease-in-out fill-current text-black hover:text-blue-400"
-            width="55"
-            height="55"
+            width={iconSize}
+            height={iconSize}
             viewBox="0 0 55 55"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
