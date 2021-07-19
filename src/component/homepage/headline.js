@@ -6,6 +6,7 @@ export default function Headline() {
     <div className={"h-screen"}>
       <img
         src={"images/bg.jpg"}
+        alt={'Mano Lithuanian background'}
         className={"h-5/6 w-full object-cover absolute hidden md:block"}
       />
       <div
@@ -30,7 +31,7 @@ export default function Headline() {
           <NavLink to={`/skill`}>
             <button
               className={
-                "bg-green border-2 border-black p-3 text-lg font-medium text-white mt-8 md:mt-4 rounded-md w-full md:w-60"
+                "bg-green p-3 text-white mt-8 md:mt-4 text-xl px-14 py-5 md:py-2 rounded-md hover:shadow-lg transition duration-500 w-full md:w-60"
               }
             >
               Let’s start

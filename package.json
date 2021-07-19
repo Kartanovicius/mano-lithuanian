@@ -1,5 +1,5 @@
 {
-  "name": "mano-lithuania",
+  "name": "mano-lithuanian",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "date-fns": "^2.22.1",
+    "eslint-config-react-app": "^6.0.0",
     "firebase": "^8.6.8",
     "postcss-cli": "^8.3.1",
     "react": "^17.0.2",
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "eslint-config-react": "^1.1.7",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
   }

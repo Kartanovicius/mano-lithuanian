@@ -10,7 +10,7 @@ function App() {
   const Skill = lazy(() => import("./pages/skill"));
 
   return (
-    <div className="">
+    <React.Fragment>
       <Router>
           <Suspense fallback={<ReactLoader />}>
             <Switch>
@@ -21,7 +21,7 @@ function App() {
             </Switch>
           </Suspense>
       </Router>
-    </div>
+    </React.Fragment>
   );
 }
 

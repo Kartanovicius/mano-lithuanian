@@ -19,6 +19,7 @@ export default function Content() {
         className={'text-blue-600'}
           href={`https://reactrouter.com/web/guides/quick-start`}
           target="_blank"
+          rel='noreferrer'
         >
           learn Japanese
         </a>

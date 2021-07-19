@@ -7,7 +7,7 @@ export default function WaysOfStudy() {
   useEffect(() => {
     setCards(
       <button className={"bg-grey-bg rounded-md hover:shadow-md font-light mt-6"}>
-        <img className={'rounded-md object-cover w-full'} src='./images/imagecard.png'/>
+        <img className={'rounded-md object-cover w-full'} src='./images/imagecard.png' alt={'happy people'}/>
         <div className='text-left py-6 px-8'>
             <h3 className='text-2xl pb-3 whitespace-nowrap'>Speakng club</h3>
             <p>The most important aspect when moving</p>

@@ -40,7 +40,7 @@ export default function Article() {
       </p>
       <button
         className={
-          "bg-green text-white px-14 py-2 text-xl rounded-md mb-5 hover:shadow-inner transition duration-500 hover:bg-green-hover"
+          "bg-green text-white px-14 py-2 text-xl rounded-md mb-5 hover:shadow-lg transition duration-500 "
         }
       >
         Read more
