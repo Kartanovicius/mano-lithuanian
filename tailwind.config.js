@@ -6,12 +6,15 @@ module.exports = {
       'sans': ['IBM Plex Sans', 'sans-serif'],
       'overpass': ['Overpass']
     },
+    container: {
+      padding: '1.1rem',
+    },
     extend: {
       colors: {
         yellow: {
           DEFAULT: '#FFC500',
-          darker: '#FFC500',
-          lighter: '#FFDA44'
+          darker: '#fbd931',
+          lighter: '#fede00'
         },
         black: { 
           DEFAULT: '#27231C'

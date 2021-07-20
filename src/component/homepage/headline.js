@@ -3,49 +3,26 @@ import { NavLink } from "react-router-dom";
 
 export default function Headline() {
   return (
-    <div className={"h-screen"}>
-      <img
-        src={"images/bg.jpg"}
-        alt={'Mano Lithuanian background'}
-        className={"h-5/6 w-full object-cover absolute hidden md:block"}
-      />
-      <div
-        className={
-          "h-5/6 w-full absolute bg-gradient-to-r from-yellow-lighter to-yellow-darker md:hidden"
-        }
-      ></div>
-      <div
-        className={
-          "grid grid-cols-1 md:grid-cols-2 content-center relative z-10 h-5/6 w-full"
-        }
-      >
-        <div></div>
+    <div className={"w-full pt-40 pb-20 bg-yellow"}>
         <div
           className={
-            "flex flex-col md:items-end font-light text-4xl sm:text-5xl md:text-6xl text-right mx-4 md:mx-14"
+            "flex flex-col items-center text-center font-light text-4xl sm:text-5xl md:text-6xl container mx-auto"
           }
         >
+          <p className={'text-8xl font-light font-overpass'}>Labas</p>
           <p>
-            <b>Labas</b>, Learning Lithuanian has never been this easy
+            Learning Lithuanian has never been this easy
           </p>
           <NavLink to={`/skill`}>
             <button
               className={
-                "bg-green p-3 text-white mt-8 md:mt-4 text-xl px-14 py-5 md:py-2 rounded-md hover:shadow-lg transition duration-500 w-full md:w-60"
+                "bg-green p-3 text-white mt-8 md:mt-14 text-xl px-14 py-5 md:py-3 rounded-2xl hover:shadow-lg transition duration-500 w-full md:w-80"
               }
             >
               Let’s start
             </button>
           </NavLink>
-        </div>
       </div>
-      <p
-        className={
-          "flex text-4xl sm:text-5xl md:text-6xl justify-center text-center items-center h-1/6 font-light px-2"
-        }
-      >
-        We offer different ways of learning
-      </p>
     </div>
   );
 }

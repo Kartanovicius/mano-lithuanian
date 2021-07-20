@@ -10,7 +10,7 @@ export default function Article() {
       <NavLink to={`/article`}>
         <button
           className={
-            "w-full bg-white rounded-md py-3 px-4 sm:px-7 hover:shadow-md"
+            "w-full bg-white rounded-md py-3 px-4 sm:px-7 hover:shadow-md "
           }
         >
           <p className={"text-lg text-left"}>What language should I learn?</p>
@@ -30,7 +30,8 @@ export default function Article() {
     );
   }, []);
   return (
-    <div className={"bg-grey-bg py-10 px-5 sm:px-14"}>
+    <div className={"bg-grey-bg py-10"}>
+      <div className={'container mx-auto'}>
       <h1 className={"text-4xl sm:text-5xl md:text-6xl font-light"}>
         The Mano Lithuanian blog
       </h1>
@@ -49,6 +50,7 @@ export default function Article() {
         {news}
         {news}
         {news}
+      </div>
       </div>
     </div>
   );
