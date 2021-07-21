@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This project currently in alpha version and most of functions are not implemented
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
